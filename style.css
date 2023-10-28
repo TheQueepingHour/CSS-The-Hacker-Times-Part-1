@@ -1,1 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    background: #eee;
+}
+.newspaper-container {
+    margin: 2em 4em 2em 4em;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 1%;
+}
+header > h1 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+.date {
+    font-family: 'Source Sans Pro';
+    padding-top: 1em;
+    padding-left: 1em;
+}
+nav > ul > li{
+    display: inline-block;
+    font-family: 'Source Sans Pro';
+    padding-left: 3.3em;
+}
+nav > ul > li > a {
+    color: #777;
+}
+main {
+    margin: 1em 2em;
+    border-bottom: 1px solid #eee;
+}
+main > img {
+    width: 100%;
+}
+main > h2, h4 {
+    font-family: 'Roboto Slab';
+}
+main > h5 {
+    color: red;
+}
+p {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+}
+.more-articles {
+    margin: 0 1em;
+    padding: 0 1em;
+}
+section > img {
+    width: 100%;
+}
+.more-articles > section {
+    display: inline-block;
+    width: 35vw;
+    margin: 0 2em;
+}
+.gridDiv {
+    display: inline-grid;
+    width: 100%;
+    margin: 0 1em;
+    padding: 0 3em;
+    grid-auto-flow: column;
+    grid-gap: 2em;
+}
+.footerLinks {
+    display: inline-grid;
+    margin: 0 4em;
+    grid-auto-flow: column;
+    grid-gap: 5em;
+}
+.hackerNews > p > a, .hackerCompany > p > a {
+    color: #777;
+}
+
